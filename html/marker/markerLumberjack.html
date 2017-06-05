@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      
+      #map {
+        height: 600px;
+		width:100%;
+      }
+	  
+      
+    </style>
+	
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script> 
+  </head>
+  <body>
+    <div id="map">
+	
+	</div>
+	
+	
+  </body>
+  
+  <script>
+  var json;
+  $(document).ready(function(){
+
+        $.post("/webproje/php/marker/requestLumberjack.php",
+        function(data){
+		json=JSON.parse(data);
+		 
+
+        
+    });
+ });
+  
+ function initMap() {
+
+        var latlng = new google.maps.LatLng(38.385947, 27.181670);
+        var myOptions = {
+            zoom: 10,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("map"),myOptions);
+		
+        for( var i in json ){
+
+            lat = json[i].enlem;
+            lng = json[i].boylam;
+           
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(lat,lng),
+                map: map
+            }); 
+           
+        }
+    }  
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6-0YJZVn2o3VbB6S5HdrZqA0G_fuXVcY&callback=initMap">
+    </script>
+
+</html>

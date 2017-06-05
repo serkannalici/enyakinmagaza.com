@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta charset="Utf-8" name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>enyakinmagaza.com</title>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
@@ -19,13 +18,6 @@
 
 
 $(document).ready(function(){
-
-//zoom
-$(".location4").mouseover(function() {
-    $(".location4").elevateZoom();
-});
-
-
 //autocomplete
 $(function() {
     $("#searchBox").autocomplete({
@@ -34,15 +26,9 @@ $(function() {
 		
     });
 	});
-	
+ 
+//autocomplete
 
-	
-$("#searchBtn").click(function(){
-    alert("The paragraph was clicked.");
-});
-
-
-// $('a.photo').zoom({url: 'photo-big.jpg'});
 //menu hover
 $("#menu-1").mouseover(function() {
     $("#menu-1").css("color","#55e4d4");
@@ -225,16 +211,16 @@ $('#footMusteri').hover(function() {
 		<div id="search">
 			<form method="post" action="search.php">
 				<input id="searchBox" type="text" name="markaAdi"/>
-				<input id="searchBtn" type="button" value="ARA"/> 
+				<input id="searchBtn" type="submit" value="ARA"/> 
 			</form>
 		</div>
 		
 		<div id="member">
 			<ul id="ulUye">
-				<img id="uyeGiris" src="../icon/uyeGiris.png">
-				<li class="uye"><a href="../php/form.php">GİRİŞ YAP</a></li>
-				<img id="uyeOl" src="../icon/uyeOl.png">
-				<li class="uye"><a href="../php/kayit.php">ÜYE OL</a></li>
+				
+				<li class="uye"><a href="">Hesabım</a></li>
+				<li class="uye"><a href="/webproje/html/index.html">Çıkış</a></li>
+				
 			</ul>
 		</div>		
 	</div>
@@ -322,9 +308,9 @@ $('#footMusteri').hover(function() {
 					<img id="imgLoft" src="../images/loft.png">
 				</div>
 				<div id="imgLocation">
-					<a href="/webproje/html/marker/markerAdidas.html"><img class="location1" src="../icon/location2.png"></a>
-					<a href="/webproje/html/marker/markerNike.html"><img class="location2" src="../icon/location2.png"></a>
-					<a href="/webproje/html/marker/markerLoft.html"><img class="location3" src="../icon/location2.png"></a>
+					<img class="location1" src="../icon/location2.png">
+					<img class="location2" src="../icon/location2.png">
+					<img class="location3" src="../icon/location2.png">
 				</div>
 				<div id="borderLcw">
 					<img id="imgLcw" src="../images/lcw.png">
@@ -336,9 +322,9 @@ $('#footMusteri').hover(function() {
 					<img id="imgKoton" src="../images/koton.png">
 				</div>
 				<div id="imgLocation">
-					<a href="/webproje/html/marker/markerLc.html"><img class="location4" src="../icon/location2.png"/></a>
-					<a href="/webproje/html/marker/markerPolo.html"><img class="location5" src="../icon/location2.png"></a>
-					<a href="/webproje/html/marker/markerKoton.html"><img class="location6" src="../icon/location2.png"></a>
+					<img class="location4" src="../icon/location2.png">
+					<img class="location5" src="../icon/location2.png">
+					<img class="location6" src="../icon/location2.png">
 				</div>
 		</div>
 	</div>
@@ -369,12 +355,12 @@ $('#footMusteri').hover(function() {
 		<div id="foot4">
 			<ul id="ulTakip">
 				<label class="footerBaslik">Bizi Takip Edin</label>
-				<a href="https://www.facebook.com"><li class="foot4Text"><img id="social-1" class="imgTakip" title="Facebook" src="../icon/takip/face.png"></li></a>
-				<a href="https://www.twitter.com"><li class="foot4Text"><img id="social-2" class="imgTakip" title="Twitter" src="../icon/takip/twitter.png"></li></a>
-				<a href="https://www.instagram.com"><li class="foot4Text"><img id="social-3" class="imgTakip" title="Instagram" src="../icon/takip/instagram.png"></li></a>
-				<a href="https://www.youtube.com"><li class="foot4Text"><img id="social-4" class="imgTakip" title="Youtube" src="../icon/takip/youtube.png"></li></a>
-				<a href="https://plus.google.com"><li class="foot4Text"><img id="social-5" class="imgTakip" title="Google+" src="../icon/takip/google+.png"></li></a>
-				<a href="https://www.linkedin.com"><li class="foot4Text"><img id="social-6" class="imgTakip" title="Linkedin" src="../icon/takip/linkedin.png"></li></a>
+				<li class="foot4Text"><img id="social-1" class="imgTakip" title="Facebook" src="../icon/takip/face.png"></li>
+				<li class="foot4Text"><img id="social-2" class="imgTakip" title="Twitter" src="../icon/takip/twitter.png"></li>
+				<li class="foot4Text"><img id="social-3" class="imgTakip" title="Instagram" src="../icon/takip/instagram.png"></li>
+				<li class="foot4Text"><img id="social-4" class="imgTakip" title="Youtube" src="../icon/takip/youtube.png"></li>
+				<li class="foot4Text"><img id="social-5" class="imgTakip" title="Google+" src="../icon/takip/google+.png"></li>
+				<li class="foot4Text"><img id="social-6" class="imgTakip" title="Linkedin" src="../icon/takip/linkedin.png"></li>
 			</ul>
 		</div>
 	</div>
@@ -407,7 +393,6 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
-
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
