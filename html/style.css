@@ -1,0 +1,85 @@
+
+#icerik{
+	width:960px;
+	margin:0 auto;
+	
+}
+#enUstSol{
+	width:640px;
+	height:29px;
+	background-color:#064768;	
+	float:left;
+}
+#enUstSag{
+	width:320px;
+	height:45px;
+	background-color:#064768;
+	float:left;
+}
+#logo{
+	width:170px;
+	height:80px;
+float:left;	
+}
+#kur{
+	width:463px;
+	height:80px;
+	float:left;
+}
+#doviz{
+	width:11px;
+	height:16px;
+}
+#hava{
+	width:11px;
+	height:19px;
+}
+.yazi{
+	font-family: Myriad Pro;
+	font-size:19px;
+	color:#9c9c9c;
+	font-weight:bold;
+}
+hr{
+	width:463;
+	height:5px;
+	background-color:#DC8C00;
+}
+#kategori{
+	width:327px;
+	height:80px;
+	float:left;
+	margin-top:23px;
+}
+#kategori_icon{
+	width:11px;
+	height:11px;
+	
+}
+.kategori_yazi{
+	font-family: Myriad Pro;
+	font-size:15px;
+	color:#CE1212;
+	font-weight:bold;
+	margin-left:10px;
+}
+#search{
+	width:120px;
+	text-size:8px;
+}
+#ara{
+	width:15px;
+	height:13px;
+	margin-right:3px;
+}
+#tarih{
+	width:15px;
+	height:14px;
+}
+.tarih_yazi{
+	font-family: Myriad Pro;
+	font-size:13px;
+	color:#9C9C9C;
+	font-weight:bold;
+	margin-left:3px;
+}
