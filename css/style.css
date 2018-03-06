@@ -1,598 +1,85 @@
-.uye{
-	margin-left:50px;
-}
-.gradient{
-	background: linear-gradient(#539db5,#ffffff);
-	width:960px;
-	height:1000px;
-	margin:0 auto;
-}
-a{
-	text-decoration:none;
-}
-#container{
+
+#icerik{
 	width:960px;
 	margin:0 auto;
+	
 }
-#topLeft{
-	width:275px;
-	height:100px;
-	background-color:#21324f;
+#enUstSol{
+	width:640px;
+	height:29px;
+	background-color:#064768;	
 	float:left;
-	border-width:1px;
-	border-bottom-width:2px;
-	border-bottom-style:solid;
-	border-bottom-color:#c1c1c1;
+}
+#enUstSag{
+	width:320px;
+	height:45px;
+	background-color:#064768;
+	float:left;
 }
 #logo{
-	margin-left:9px;
-	margin-top:32px;
+	width:170px;
+	height:80px;
+float:left;	
 }
-#logoText{
-	font-size:30px;
+#kur{
+	width:463px;
+	height:80px;
+	float:left;
+}
+#doviz{
+	width:11px;
+	height:16px;
+}
+#hava{
+	width:11px;
+	height:19px;
+}
+.yazi{
 	font-family: Myriad Pro;
-	color:#ffffff;
+	font-size:19px;
+	color:#9c9c9c;
+	font-weight:bold;
 }
-.circle{
-	background-color: #56cfef;
-	height: 9px;
-	width: 8px;
-	border-radius:75px;
-	border-radius: 75px;
-	margin-left:219.5px;
-	margin-top:-22.5px;
+hr{
+	width:463;
+	height:5px;
+	background-color:#DC8C00;
+}
+#kategori{
+	width:327px;
+	height:80px;
+	float:left;
+	margin-top:23px;
+}
+#kategori_icon{
+	width:11px;
+	height:11px;
 	
 }
-#topRight{
-	width:685px;
-	height:100px;
-	background-color:#e1ecff;
-	float:left;
-	border-width:1px;
-	border-bottom-width:2px;
-	border-bottom-style:solid;
-	border-bottom-color:#c1c1c1;
+.kategori_yazi{
+	font-family: Myriad Pro;
+	font-size:15px;
+	color:#CE1212;
+	font-weight:bold;
+	margin-left:10px;
 }
 #search{
-	width:375px;
-	height:50px;
-	background-image:gradient(linear, left top, left bottom, color-stop(0, #E8F6FF), color-stop(50, #c5e0ea), color-stop(100, #95C4D5));
-	float:left;
-	margin-left:40px;
-	margin-top:23px;
-	box-shadow: 3px 4px 6px 0px rgba(1, 1, 1, 0.2);   
+	width:120px;
+	text-size:8px;
 }
-#searchBox{
-	border:none;
-	background-color:#f1f1f1;
-	width:281px;
-	height:32px;
-	border-radius: 8px; 
-	margin-top:8.5px;
-	margin-left:10px;
-	box-shadow:inset 1px 1px 5px 0 #010101;
-	background-image:url('../icon/search.png');
-	background-position: 10px 10px;
-	background-repeat: no-repeat;
-	background-size:15px 15px;
-	font-size:20px;
-	color:#21324f;
+#ara{
+	width:15px;
+	height:13px;
+	margin-right:3px;
+}
+#tarih{
+	width:15px;
+	height:14px;
+}
+.tarih_yazi{
+	font-family: Myriad Pro;
+	font-size:13px;
+	color:#9C9C9C;
 	font-weight:bold;
-	font-family:Myriad Pro;
-}
-#searchBtn{
-	border:none;
-	height:30px;
-	width:70px;
 	margin-left:3px;
-	border-radius:5px;
-	background-color:#362f2d;
-	color:#ffffff;
-	background:linear-gradient(180deg, #0eb2f6 0%, #005387 100%);
-	box-shadow:2px 2px 5px #362F2D;
-	
 }
-#member{
-	width:235px;
-	height:32px;
-	float:left;
-	margin-left:20px;
-	margin-top:33px;
-	border:solid;
-	border-width:1px;
-	border-color:#c1c1c1;
-	border-radius:8px;
-}
-#ulUye{
-	margin-top:8px;
-	padding:0;
-	margin-left:10px;
-}
-.uye{
-	list-style-type:none;
-	float:left;
-	color:white;
-	font-family:Myriad Pro;
-	font-size:16px;
-	margin-left:10px;
-	color:#7b96c4;
-}
-#uyeGiris{
-	width:22px;
-	height:22px;
-	float:left;
-	margin-left:10px;
-	margin-top:-3px;
-}
-#uyeOl{
-	width:25px;
-	height:25px;
-	float:left;
-	margin-left:15px;
-	margin-top:-5px;
-}
-#menu{
-	height:746px;
-	width:275px;
-	background-color:#293b5a;
-	float:left;
-	border-bottom-width:3px;
-	border-bottom-style:solid;
-	border-bottom-color:#c1c1c1;
-	
-}
-#ulMenu{
-	padding:0;
-}
-.imgMenuAna{
-	width:45px;
-	height:45px;
-	margin-left:30px;
-	margin-top:5px;
-	
-}
-.imgMenuMarka{
-	width:45px;
-	height:45px;
-	margin-left:30px;
-	padding-top:10px;
-	margin-top:5px;
-}
-.imgMenuHakkimiz{
-	width:45px;
-	height:45px;
-	margin-left:30px;
-	margin-top:5px;
-}
-.imgMenuIletisim{
-	width:45px;
-	height:45px;
-	margin-left:30px;
-	margin-top:15px;
-}
-
-.menuText{
-	list-style-type:none;
-	margin-top:-32px;
-	margin-left:100px;
-	color:#7b96c4;
-	font-family:Myriad Pro;
-	font-size:18px;
-	font-weight:bold;
-}
-
-.menuText:hover
-{
-	cursor:pointer;
-}
-
-#enYakin{
-	list-style-type:none;
-	margin-top:-40px;
-	margin-left:100px;
-	color:#7b96c4;
-	font-family:Myriad Pro;
-	font-size:18px;
-	font-weight:bold;
-}
-#enYakin:hover{
-	color:#55e4d4;
-	cursor:pointer;
-}
-#imgenYakin{
-	width:45px;
-	height:65px;
-	margin-left:30px;
-	padding-top:25px;
-}
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
-/*.mySlides {display:none}*/
-
-/* Slideshow container */
-.slideshow-container {
-  width: 675px;
-  height:272px;
-  position: relative;
-  margin-top:2px;
-  margin-left:3px;
-  float:left;
-  background-color:#293b5a;
-  z-index:0;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 100.5%;
-  width: auto;
-  padding: 14px;
-  margin-top:5px;
-  color:#b2b2b2;
-  font-weight: bold;
-  font-size: 15px;
-  transition: 0.6s ease; 
-}
-
-/* Position the "next button" to the right */
-.next {
-	
-  right: 0;
-  margin-right:193px;
- 
-}
-.prev{
-	left:0;
-	margin-left:200px;
-	
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color:#80A8b5;
-}
-
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 3px;
-  margin-top:29px;
-  background-color: #b2b2b2;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s ease;
- 
-}
-
-.active, .dot:hover {
-  background-color: #55e4d4;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-  z-index:1150;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-.imgSlide{
-	width:672px;
-	height:272px;
-	float:left;
-}
-.dotBack{
-	height:60px;
-	width:300px;
-	background-image:url('../icon/nav.png');
-	background-repeat: no-repeat;
-	float:left;
-	margin-left:190px;
-	margin-top:-3px;
-}
-
-
-
-#section
-{
-	height:421px;
-	width:685px;
-	float:left;
-	margin-top:0px;
-}
-#sectionHeader{
-	width:685px;
-	height:55px;
-	background-color:#e1ecff;
-	border-top-width:2px;
-	border-top-style:solid;
-	border-top-color:#c1c1c1;
-	border-bottom-width:2px;
-	border-bottom-style:solid;
-	border-bottom-color:#c1c1c1;
-}
-#sectionHeaderTxt{
-	margin-top:15px;
-}
-.sectionText{
-	color:#293b5a;
-	font-family:Myriad Pro;
-	font-size:22px;
-	font-weight:bold;
-	margin-left:235px;
-}
-#marka{
-	height:370px;
-	width:685px;
-	margin-top:-10px;
-	float:left;
-	padding-top:10px;
-	border-bottom-width:3px;
-	border-bottom-style:solid;
-	border-bottom-color:#c1c1c1;
-}
-
-#borderAdidas{
-	width:165px;
-	height:110px;
-	float:left;
-	border:4px;
-	border-color:#21324f;
-	border-style:solid;
-	margin-left:60px;
-	margin-top:7px;
-}
-
-#imgAdidas{
-	width:165%;
-	height:165%;
-	margin-top:-37px;
-	margin-left:-52px;
-}
-
-#borderNike{
-	width:165px;
-	height:110px;
-	float:left;
-	border:4px;
-	border-color:#21324f;
-	border-style:solid;
-	margin-left:25px;
-	margin-top:7px;
-	padding-top:15px;
-}
-
-
-#imgNike{
-	width:105%;
-	height:90%;
-	margin-top:-2px;
-	margin-left:1px;
-}
-
-#borderLoft{
-	width:165px;
-	height:110px;
-	float:left;
-	border:4px;
-	border-color:#21324f;
-	border-style:solid;
-	margin-left:25px;
-	margin-top:7px;
-	padding-top:15px;
-}
-
-
-#imgLoft{
-	width:250%;
-	height:250%;
-	margin-top:5px;
-	margin-left:-120px;
-}
-#imgLocation{
-	width:650px;
-	height:60px;
-	float:left;
-	margin-left:5px;
-}
-.location1{
-	width:50px;
-	height:50px;
-	margin-left:115px;
-	margin-top:7px;
-	
-}
-.location2{
-	width:50px;
-	height:50px;
-	margin-top:7px;
-	margin-left:135px;
-}
-.location3{
-	width:50px;
-	height:50px;
-	margin-top:7px;
-	margin-left:135px;
-}
-.location4{
-	width:50px;
-	height:50px;
-	margin-top:7px;
-	margin-left:115px;
-}
-.location5{
-	width:50px;
-	height:50px;
-	margin-top:7px;
-	margin-left:135px;
-}
-.location6{
-	width:50px;
-	height:50px;
-	margin-top:7px;
-	margin-left:135px;
-}
-
-
-
-#borderLcw{
-	width:165px;
-	height:110px;
-	float:left;
-	border:4px;
-	border-color:#21324f;
-	border-style:solid;
-	margin-left:60px;
-	margin-top:7px;
-	padding-top:15px;
-}
-
-
-#imgLcw{
-	width:115%;
-	height:125%;
-	margin-top:-22px;
-	margin-left:-13px;
-}
-#borderPolo{
-	width:165px;
-	height:110px;
-	float:left;
-	border:4px;
-	border-color:#21324f;
-	border-style:solid;
-	margin-left:25px;
-	margin-top:7px;
-	padding-top:15px;
-}
-
-
-#imgPolo{
-	width:130%;
-	height:110%;
-	margin-top:-14px;
-	margin-left:-25px;
-}
-#borderKoton{
-	width:165px;
-	height:110px;
-	float:left;
-	border:4px;
-	border-color:#21324f;
-	border-style:solid;
-	margin-left:25px;
-	margin-top:7px;
-	padding-top:15px;
-}
-
-
-#imgKoton{
-	width:100%;
-	height:55%;
-	margin-top:18px;
-	margin-left:7px;
-}
-#footer{
-	width:960px;
-	height:165px;
-	float:left;
-}
-#footAdidas,#footNike,#footKoton,#footLoft,#footLc,#footHak,#footBiz,#footMusteri:hover{
-	cursor:pointer;
-	
-}
-.footerText{
-	font-family:Myriad Pro;
-	color:#7b96c4;
-	list-style-type:none;
-	font-weight:bold;
-	padding-top:4px;
-	margin-top:1px;
-}
-.footerBaslik{
-	font-family:Myriad Pro;
-	color:#6785b8;
-	font-size:22px;
-	font-weight:bold;
-}
-#foot1{
-	float:left;
-}
-#ulOneCikanMarkalar{
-	margin-top:5px;
-	padding:0px;
-	margin-left:15px;
-}
-#foot2{
-	float:left;
-	margin-left:80px;
-}
-#ulEnyakinMagaza{
-	margin-top:5px;
-	padding:0px;
-	margin-left:15px;
-}
-#foot3{
-	float:left;
-	margin-left:85px;
-}
-#ulDestek{
-	margin-top:5px;
-	padding:0px;
-	margin-left:15px;
-}
-#foot4{
-	float:left;
-	margin-left:80px;
-	height:160;
-	width:220;
-}
-#ulTakip{
-	margin-top:5px;
-	padding:0px;
-	margin-left:15px;
-	float:left;
-	width:170px;
-	height:142px;
-}
-.imgTakip{
-	height:50px;
-	width:50px;
-	float:left;
-	margin-left:6px;
-	margin-bottom:15px;
-	
-}
-
-.foot4Text{
-	font-family:Myriad Pro;
-	color:#7b96c4;
-	list-style-type:none;
-	font-weight:bold;
-	margin-top:5px;
-	margin:left;
-	margin-left:-15px;
-}
-
-
-	
